@@ -1,6 +1,6 @@
 package java2.lesson1;
 
-public class Cat {
+public class Cat implements MarathonRunner {
     private final int id;
     private final double runLimit;
     private final double jumpLimit;
@@ -10,33 +10,21 @@ public class Cat {
         this.runLimit = runLimit;
         this.jumpLimit = jumpLimit;
     }
-
-    public boolean run(Treadmill t) {
-        if (t.getDistance() <= this.runLimit) {
-            System.out.println("Бег: Кот " + id + " пробежал " + t.getDistance() + " м.");
-        } else {
-            System.out.println("Бег: Кот " + id + " выбыл");
-            return false;
-        }
-        return true;
-    }
-
-    public boolean jump(Wall w) {
-        if (w.getHeight() <= this.jumpLimit) {
-            System.out.println("Прыжок: Кот " + id + " прыгнул " + w.getHeight() + " м.");
-        } else {
-            System.out.println("Прыжок: Кот " + id + " выбыл");
-            return false;
-        }
-        return true;
-    }
-
     public boolean runMarathon(Treadmill[] treadmills, Wall[] walls) {
         for (Treadmill t : treadmills) {
-            if (!this.run(t)) return false;
+            if (!Actions.run(t.getDistance(), this.runLimit)){
+                System.out.println("Бег: Кот" + id + " выбыл");
+                return false;
+            }
+            System.out.println("Бег: Кот " + id + " пробежал " + t.getDistance() + " м.");
         }
+
         for (Wall w : walls) {
-            if (!this.jump(w)) return false;
+            if (!Actions.jump(w.getHeight(), this.jumpLimit)){
+                System.out.println("Прыжок: Кот " + id + " выбыл");
+                return false;
+            }
+            System.out.println("Прыжок: Кот " + id + " прыгнул " + w.getHeight() + " м.");
         }
         return true;
     }

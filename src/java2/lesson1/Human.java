@@ -1,6 +1,6 @@
 package java2.lesson1;
 
-public class Human {
+public class Human implements MarathonRunner {
     private final int id;
     private final double runLimit;
     private final double jumpLimit;

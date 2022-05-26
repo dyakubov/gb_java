@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52444897-88b0-4ccb-bf6b-69f09196160f" name="Changes" comment="Lesson 7 completed">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java1/lesson6/HomeWorkApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java2/lesson1/Actions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java2/lesson1/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java2/lesson1/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java2/lesson1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java2/lesson1/Marathon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java2/lesson1/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java2/lesson1/Treadmill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java2/lesson1/Wall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/java2/lesson1/HumanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/java2/lesson1/RobotTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java2/lesson1/MarathonRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gb_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gb_java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java2/lesson1/Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java2/lesson1/Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java2/lesson1/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java2/lesson1/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java2/lesson1/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java2/lesson1/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java2/lesson1/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java2/lesson1/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/java2/lesson1/HumanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java2/lesson1/HumanTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +22,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -67,6 +60,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
+    "last_directory_selection": "/Users/yakubov-dd/IdeaProjects/gb_java/src/java2/lesson1",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -100,11 +94,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java2.lesson1.Main" />
+      <option name="MAIN_CLASS_NAME" value="java2.lesson1.version1.Main" />
       <module name="gb_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java2.lesson1.*" />
+          <option name="PATTERN" value="java2.lesson1.version1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,7 +123,7 @@
       <module name="gb_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java2.lesson1.*" />
+          <option name="PATTERN" value="java2.lesson1.version1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,7 +139,7 @@
       <module name="gb_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java2.lesson1.*" />
+          <option name="PATTERN" value="java2.lesson1.version1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,9 +153,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RobotTest.runMarathon" />
         <item itemvalue="JUnit.HumanTest.runMarathon" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.RobotTest.runMarathon" />
+        <item itemvalue="Application.java2.lesson1.version1.Main" />
         <item itemvalue="Application.java1.lesson6.HomeWorkApp" />
         <item itemvalue="Application.HomeWork" />
       </list>

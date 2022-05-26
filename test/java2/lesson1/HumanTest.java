@@ -3,8 +3,6 @@ package java2.lesson1;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class HumanTest {
 
     @Test

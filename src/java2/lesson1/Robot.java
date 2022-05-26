@@ -1,6 +1,6 @@
 package java2.lesson1;
 
-public class Robot {
+public class Robot implements MarathonRunner {
     private final int id;
     private final double runLimit;
     private final double jumpLimit;
@@ -11,32 +11,22 @@ public class Robot {
         this.jumpLimit = jumpLimit;
     }
 
-    public boolean run(Treadmill t) {
-        if (t.getDistance() <= this.runLimit) {
-            System.out.println("Бег: Робот " + id + " пробежал " + t.getDistance() + " м.");
-        } else {
-            System.out.println("Бег: Робот" + id + " выбыл");
-            return false;
-        }
-        return true;
-    }
-
-    public boolean jump(Wall w) {
-        if (w.getHeight() <= this.jumpLimit) {
-            System.out.println("Прыжок: Робот " + id + " прыгнул " + w.getHeight() + " м.");
-        } else {
-            System.out.println("Прыжок: Робот " + id + " выбыл");
-            return false;
-        }
-        return true;
-    }
 
     public boolean runMarathon(Treadmill[] treadmills, Wall[] walls) {
         for (Treadmill t : treadmills) {
-            if (!this.run(t)) return false;
+            if (!Actions.run(t.getDistance(), this.runLimit)){
+                System.out.println("Бег: Робот" + id + " выбыл");
+                return false;
+            }
+            System.out.println("Бег: Робот " + id + " пробежал " + t.getDistance() + " м.");
         }
+
         for (Wall w : walls) {
-            if (!this.jump(w)) return false;
+            if (!Actions.jump(w.getHeight(), this.jumpLimit)){
+                System.out.println("Прыжок: Робот " + id + " выбыл");
+                return false;
+            }
+            System.out.println("Прыжок: Робот " + id + " прыгнул " + w.getHeight() + " м.");
         }
         return true;
     }
