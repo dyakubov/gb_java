@@ -4,7 +4,7 @@ public class MyArraySizeException extends Exception{
     private static final String ERROR_MESSAGE = "Wrong array size: [%d][%d], expected: [%d][%d]";
 
     public MyArraySizeException(String[][] arr, int size) {
-        super(String.format(ERROR_MESSAGE, arr[0].length, arr.length, size, size));
+        super(String.format(ERROR_MESSAGE, arr.length, arr[0].length, size, size));
 
     }
 }

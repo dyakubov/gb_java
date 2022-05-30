@@ -4,45 +4,34 @@ public class HomeWork {
     static final int SIZE = 4;
 
     public static void main(String[] args) {
+        String[][][] arrays = {
+                {
+                        {"1", "1", "1", "1"},
+                        {"1", "1", "1", "1"},
+                        {"1", "1", "1", "1"},
+                        {"1", "1", "1", "1"}
+                },
+                {
+                        {"1", "1", "1", "1"},
+                        {"1", "1", "A", "1"},
+                        {"1", "1", "1", "1"},
+                        {"1", "1", "1", "1"}
+                },
 
-        String[][] arr1 = {
-                {"1", "1", "1", "1"},
-                {"1", "1", "1", "1"},
-                {"1", "1", "1", "1"},
-                {"1", "1", "1", "1"}
-        };
+                {
+                        {"1", "1", "1", "1"},
+                        {"1", "1", "1", "1"},
+                        {"1", "1", "1", "1"},
+                        {"1", "1", "1", "1"},
+                        {"1", "1", "1", "1"}
+                }};
 
-        String[][] arr2 = {
-                {"1", "1", "1", "1"},
-                {"1", "%", "1", "1"},
-                {"1", "1", "A", "1"},
-                {"1", "1", "1", "1"}
-        };
-
-        String[][] arr3 = {
-                {"1", "1", "1", "1"},
-                {"1", "1", "1", "1"},
-                {"1", "1", "1", "1"},
-                {"1", "1", "A", "1"},
-                {"1", "1", "1", "1"}
-        };
-
-        try {
-            System.out.println(sumNumbersFromStrings(arr1));
-        } catch (MyArrayDataException | MyArraySizeException e) {
-            e.printStackTrace();
-        }
-
-        try {
-            System.out.println(sumNumbersFromStrings(arr2));
-        } catch (MyArrayDataException | MyArraySizeException e) {
-            e.printStackTrace();
-        }
-
-        try {
-            System.out.println(sumNumbersFromStrings(arr3));
-        } catch (MyArrayDataException | MyArraySizeException e) {
-            e.printStackTrace();
+        for (String[][] a : arrays) {
+            try {
+                System.out.println(sumNumbersFromStrings(a));
+            } catch (MyArrayDataException | MyArraySizeException e) {
+                e.printStackTrace();
+            }
         }
     }
 
