@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52444897-88b0-4ccb-bf6b-69f09196160f" name="Changes" comment="Lesson 7 completed">
-      <change afterPath="$PROJECT_DIR$/src/java2/lesson1/MarathonRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java2/lesson2/HomeWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java2/lesson2/MyArrayDataException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java2/lesson2/MyArraySizeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/java2/lesson2/HomeWorkTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java2/lesson1/Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java2/lesson1/Actions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java2/lesson1/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java2/lesson1/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java2/lesson1/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java2/lesson1/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java2/lesson1/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java2/lesson1/Robot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/java2/lesson1/HumanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java2/lesson1/HumanTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +20,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -34,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson8" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,23 +48,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "last_directory_selection": "/Users/yakubov-dd/IdeaProjects/gb_java/src/java2/lesson1",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.general"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/yakubov-dd/IdeaProjects/gb_java/src/java2/lesson1&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -75,17 +73,18 @@
       <recent name="java2.lesson1" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="java2.lesson2" />
       <recent name="java2.lesson1" />
       <recent name="java1.lesson2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HumanTest.runMarathon">
-    <configuration name="HomeWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java1.lesson7.HomeWork" />
+  <component name="RunManager" selected="JUnit.HomeWorkTest.sumNumbersFromStrings">
+    <configuration name="java2.lesson2.HomeWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java2.lesson2.HomeWork" />
       <module name="gb_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java1.lesson7.*" />
+          <option name="PATTERN" value="java2.lesson2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,28 +92,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java2.lesson1.version1.Main" />
+    <configuration name="HomeWorkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gb_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java2.lesson1.version1.*" />
+          <option name="PATTERN" value="java2.lesson2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="java2.lesson2" />
+      <option name="MAIN_CLASS_NAME" value="java2.lesson2.HomeWorkTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="java1.lesson6.HomeWorkApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java1.lesson6.HomeWorkApp" />
+    <configuration name="HomeWorkTest.sumNumbersFromStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gb_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java1.lesson6.*" />
+          <option name="PATTERN" value="java2.lesson2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="java2.lesson2" />
+      <option name="MAIN_CLASS_NAME" value="java2.lesson2.HomeWorkTest" />
+      <option name="METHOD_NAME" value="sumNumbersFromStrings" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HomeWorkTest.sumNumbersFromStrings" />
+        <item itemvalue="JUnit.HomeWorkTest" />
+        <item itemvalue="Application.java2.lesson2.HomeWork" />
         <item itemvalue="JUnit.HumanTest.runMarathon" />
         <item itemvalue="JUnit.RobotTest.runMarathon" />
-        <item itemvalue="Application.java2.lesson1.version1.Main" />
-        <item itemvalue="Application.java1.lesson6.HomeWorkApp" />
-        <item itemvalue="Application.HomeWork" />
       </list>
     </recent_temporary>
   </component>
