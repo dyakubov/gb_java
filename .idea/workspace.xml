@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52444897-88b0-4ccb-bf6b-69f09196160f" name="Changes" comment="Lesson 6 completed">
-      <change afterPath="$PROJECT_DIR$/src/java1/lesson7/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java1/lesson7/HomeWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java1/lesson7/Plate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_04_2022,_18_34_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_22_04_2022__18_34__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_04_2022,_08_31_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_04_2022__08_31__Changes_.xml" beforeDir="false" />
+    <list default="true" id="52444897-88b0-4ccb-bf6b-69f09196160f" name="Changes" comment="Lesson 7 completed">
+      <change afterPath="$PROJECT_DIR$/src/java2/lesson1/MarathonRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java2/lesson1/Actions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java2/lesson1/Actions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java2/lesson1/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java2/lesson1/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java2/lesson1/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java2/lesson1/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java2/lesson1/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java2/lesson1/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/java2/lesson1/HumanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java2/lesson1/HumanTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -30,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson_6" />
+        <entry key="$PROJECT_DIR$" value="lesson8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,20 +50,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "last_directory_selection": "/Users/yakubov-dd/IdeaProjects/gb_java/src/java2/lesson1",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.general"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="java2.lesson1" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="java2.lesson1" />
       <recent name="java1.lesson2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HomeWork">
+  <component name="RunManager" selected="JUnit.HumanTest.runMarathon">
     <configuration name="HomeWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java1.lesson7.HomeWork" />
       <module name="gb_java" />
@@ -73,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWorkApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java1.lesson2.HomeWorkApp" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java2.lesson1.version1.Main" />
       <module name="gb_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java1.lesson2.*" />
+          <option name="PATTERN" value="java2.lesson1.version1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,21 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWorkApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java1.lesson1.HomeWorkApp" />
-      <module name="gb_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java1.lesson1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Homework" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java1.lesson6.Homework" />
+    <configuration name="java1.lesson6.HomeWorkApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java1.lesson6.HomeWorkApp" />
       <module name="gb_java" />
       <extension name="coverage">
         <pattern>
@@ -112,26 +119,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="java1.lesson3.HomeWorkApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java1.lesson3.HomeWorkApp" />
+    <configuration name="HumanTest.runMarathon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="gb_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java1.lesson3.*" />
+          <option name="PATTERN" value="java2.lesson1.version1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="java2.lesson1" />
+      <option name="MAIN_CLASS_NAME" value="java2.lesson1.HumanTest" />
+      <option name="METHOD_NAME" value="runMarathon" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RobotTest.runMarathon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gb_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java2.lesson1.version1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="java2.lesson1" />
+      <option name="MAIN_CLASS_NAME" value="java2.lesson1.RobotTest" />
+      <option name="METHOD_NAME" value="runMarathon" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HumanTest.runMarathon" />
+        <item itemvalue="JUnit.RobotTest.runMarathon" />
+        <item itemvalue="Application.java2.lesson1.version1.Main" />
+        <item itemvalue="Application.java1.lesson6.HomeWorkApp" />
         <item itemvalue="Application.HomeWork" />
-        <item itemvalue="Application.java1.lesson3.HomeWorkApp" />
-        <item itemvalue="Application.HomeWorkApp (1)" />
-        <item itemvalue="Application.HomeWorkApp" />
-        <item itemvalue="Application.Homework" />
       </list>
     </recent_temporary>
   </component>
@@ -158,21 +184,7 @@
       <option name="project" value="LOCAL" />
       <updated>1650014802161</updated>
     </task>
-    <task id="LOCAL-00003" summary="Lesson 5 completed">
-      <created>1651049861369</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1651049861369</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Lesson 6 completed">
-      <created>1651739268091</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1651739268091</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,9 +201,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson 1 completed" />
     <MESSAGE value="Lesson 2 completed" />
-    <MESSAGE value="Lesson 5 completed" />
-    <MESSAGE value="Lesson 6 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 6 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 2 completed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
