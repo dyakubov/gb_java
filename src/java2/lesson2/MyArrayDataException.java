@@ -6,8 +6,4 @@ public class MyArrayDataException extends Exception{
     public MyArrayDataException(int x, int y, String s) {
         super(String.format(ERROR_MESSAGE, x, y, s));
     }
-
-    public MyArrayDataException() {
-    }
-
 }
