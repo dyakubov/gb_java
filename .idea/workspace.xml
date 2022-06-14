@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52444897-88b0-4ccb-bf6b-69f09196160f" name="Changes" comment="Lesson 2 completed">
+    <list default="true" id="52444897-88b0-4ccb-bf6b-69f09196160f" name="Changes" comment="Lesson 3 completed">
+      <change afterPath="$PROJECT_DIR$/src/java2/lesson5/HomeWorkApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java2/lesson2/HomeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java2/lesson2/HomeWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java2/lesson2/MyArraySizeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java2/lesson2/MyArraySizeException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +18,8 @@
       <list>
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -76,13 +75,13 @@
       <recent name="java1.lesson2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.java2.lesson2.HomeWork">
-    <configuration name="java2.lesson2.HomeWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java2.lesson2.HomeWork" />
+  <component name="RunManager" selected="Application.HomeWorkApp">
+    <configuration name="HomeWorkApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java2.lesson5.HomeWorkApp" />
       <module name="gb_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java2.lesson2.*" />
+          <option name="PATTERN" value="java2.lesson5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,33 +89,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWorkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java2.lesson1.version1.Main" />
       <module name="gb_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java2.lesson2.*" />
+          <option name="PATTERN" value="java2.lesson1.version1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java2.lesson2" />
-      <option name="MAIN_CLASS_NAME" value="java2.lesson2.HomeWorkTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeWorkTest.sumNumbersFromStrings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="java1.lesson6.HomeWorkApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java1.lesson6.HomeWorkApp" />
       <module name="gb_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="java2.lesson2.*" />
+          <option name="PATTERN" value="java1.lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="java2.lesson2" />
-      <option name="MAIN_CLASS_NAME" value="java2.lesson2.HomeWorkTest" />
-      <option name="METHOD_NAME" value="sumNumbersFromStrings" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.java2.lesson2.HomeWork" />
-        <item itemvalue="JUnit.HomeWorkTest.sumNumbersFromStrings" />
-        <item itemvalue="JUnit.HomeWorkTest" />
-        <item itemvalue="JUnit.HumanTest.runMarathon" />
+        <item itemvalue="Application.HomeWorkApp" />
         <item itemvalue="JUnit.RobotTest.runMarathon" />
+        <item itemvalue="JUnit.HumanTest.runMarathon" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.java1.lesson6.HomeWorkApp" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653944814070</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lesson 3 completed">
+      <created>1654126782647</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654126782647</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,7 +218,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson 1 completed" />
     <MESSAGE value="Lesson 2 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 2 completed" />
+    <MESSAGE value="Lesson 3 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 3 completed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
